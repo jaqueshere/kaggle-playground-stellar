@@ -9,7 +9,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.impute import SimpleImputer
 from sklearn.model_selection import train_test_split, KFold, cross_val_score, LeaveOneOut
-from sklearn.metrics import mean_absolute_error, accuracy_score
+from sklearn.metrics import mean_absolute_error, accuracy_score, balanced_accuracy_score
 from sklearn.linear_model import LogisticRegression
 from sklearn import tree
 from sklearn.ensemble import RandomForestClassifier
